@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="90dp"
+    android:paddingRight="90dp"
+    >
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/domingoCheck"
+        android:text="Domingo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/lunesCheck"
+        android:text="Lunes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/martesCheck"
+        android:text="Martes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/miercolesCheck"
+        android:text="Miércoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/juevesCheck"
+        android:text="Jueves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/viernesCheck"
+        android:text="Viernes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+    <CheckBox
+        android:gravity="center_horizontal"
+        android:id="@+id/sabadoCheck"
+        android:text="Sábado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
